@@ -4,7 +4,9 @@ Intégrez facilement une bannière Vera sur votre site pour permettre à vos vis
 
 ---
 
-![Aperçu bannière Vera](./assets/preview-green-horizontal.png)
+| Thème Vert | Thème Rouge |
+|:----------:|:-----------:|
+| ![Vert](./assets/preview-green-horizontal.png) | ![Rouge](./assets/preview-red-vertical.png) |
 
 ---
 
