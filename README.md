@@ -61,7 +61,8 @@ Les couleurs sont modifiables via les variables CSS en haut de chaque fichier :
 | `banner-horizontal-green.html` | Bannière horizontale, thème vert |
 | `banner-vertical-red.html` | Bannière verticale, thème rouge |
 | `banner-vertical-green.html` | Bannière verticale, thème vert |
-| `vera.webp` | Avatar Vera |
+| `vera.webp` | Avatar Vera (photo) |
+| `vera.svg` | Logo Vera complet (icône + texte) |
 | `bg-vera.png` | Image de fond (statue) |
 | `Lastik-Regular.woff2` | Police personnalisée |
 
@@ -73,6 +74,7 @@ Les assets sont hébergés sur ce repo GitHub. Les URLs sont déjà configurées
 
 ```
 https://raw.githubusercontent.com/LaReponse-tech/vera-banner-kit/main/vera.webp
+https://raw.githubusercontent.com/LaReponse-tech/vera-banner-kit/main/vera.svg
 https://raw.githubusercontent.com/LaReponse-tech/vera-banner-kit/main/bg-vera.png
 https://raw.githubusercontent.com/LaReponse-tech/vera-banner-kit/main/Lastik-Regular.woff2
 ```
