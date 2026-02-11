@@ -6,15 +6,25 @@ Intégrez facilement une bannière Vera sur votre site pour permettre à vos vis
 
 ## Thème Vert (classique)
 
-| Horizontal · [Code](./banners/banner-horizontal-green.html) | Vertical · [Code](./banners/banner-vertical-green.html) |
-|:--:|:--:|
-| <img src="./assets/preview-green-horizontal.png" width="400"> | <img src="./assets/preview-green-vertical.png" width="200"> |
+**Horizontal** · [Code](./banners/banner-horizontal-green.html)
+
+![Horizontal vert](./assets/preview-green-horizontal.png)
+
+**Vertical** · [Code](./banners/banner-vertical-green.html)
+
+![Vertical vert](./assets/preview-green-vertical.png)
+
+---
 
 ## Thème Rouge
 
-| Horizontal · [Code](./banners/banner-horizontal-red.html) | Vertical · [Code](./banners/banner-vertical-red.html) |
-|:--:|:--:|
-| <img src="./assets/preview-red-horizontal.png" width="400"> | <img src="./assets/preview-red-vertical.png" width="200"> |
+**Horizontal** · [Code](./banners/banner-horizontal-red.html)
+
+![Horizontal rouge](./assets/preview-red-horizontal.png)
+
+**Vertical** · [Code](./banners/banner-vertical-red.html)
+
+![Vertical rouge](./assets/preview-red-vertical.png)
 
 ---
 
