@@ -8,8 +8,8 @@ Intégrez facilement une bannière Vera sur votre site pour permettre à vos vis
 
 | Thème | Aperçu | Fichiers |
 |-------|--------|----------|
-| **Vert** (classique) | ![#fdf7f0](https://via.placeholder.com/20/fdf7f0/fdf7f0) ![#d6f3b8](https://via.placeholder.com/20/d6f3b8/d6f3b8) ![#837768](https://via.placeholder.com/20/837768/837768) | [Horizontal](./banner-horizontal-green.html) · [Vertical](./banner-vertical-green.html) |
-| **Rouge** (exemple) | ![#f7f7f7](https://via.placeholder.com/20/f7f7f7/f7f7f7) ![#ea684b](https://via.placeholder.com/20/ea684b/ea684b) ![#ce2e0a](https://via.placeholder.com/20/ce2e0a/ce2e0a) | [Horizontal](./banner-horizontal-red.html) · [Vertical](./banner-vertical-red.html) |
+| **Vert** (classique) | ![bg](https://img.shields.io/badge/-%20-fdf7f0?style=flat-square) ![highlight](https://img.shields.io/badge/-%20-d6f3b8?style=flat-square) ![text](https://img.shields.io/badge/-%20-837768?style=flat-square) | [Horizontal](./banner-horizontal-green.html) · [Vertical](./banner-vertical-green.html) |
+| **Rouge** (exemple) | ![bg](https://img.shields.io/badge/-%20-f7f7f7?style=flat-square) ![highlight](https://img.shields.io/badge/-%20-ea684b?style=flat-square) ![accent](https://img.shields.io/badge/-%20-ce2e0a?style=flat-square) | [Horizontal](./banner-horizontal-red.html) · [Vertical](./banner-vertical-red.html) |
 
 > **Prévisualiser** : Ouvrez [`preview.html`](./preview.html) dans votre navigateur pour voir toutes les bannières.
 
