@@ -8,8 +8,8 @@ Intégrez facilement une bannière Vera sur votre site pour permettre à vos vis
 
 | Thème | Fichiers |
 |-------|----------|
-| **Vert** (classique) | [Horizontal](./banner-horizontal-green.html) · [Vertical](./banner-vertical-green.html) |
-| **Rouge** (exemple) | [Horizontal](./banner-horizontal-red.html) · [Vertical](./banner-vertical-red.html) |
+| **Vert** (classique) | [Horizontal](./banners/banner-horizontal-green.html) · [Vertical](./banners/banner-vertical-green.html) |
+| **Rouge** (exemple) | [Horizontal](./banners/banner-horizontal-red.html) · [Vertical](./banners/banner-vertical-red.html) |
 
 > Ouvrez [`preview.html`](./preview.html) dans votre navigateur pour prévisualiser toutes les bannières.
 
@@ -53,17 +53,21 @@ Les couleurs sont modifiables via les variables CSS :
 
 ---
 
-## Contenu du kit
+## Structure
 
-| Fichier | Description |
-|---------|-------------|
-| `banner-*-green.html` | Bannières thème vert |
-| `banner-*-red.html` | Bannières thème rouge |
-| `vera.webp` | Avatar Vera |
-| `vera.svg` | Logo complet |
-| `bg-vera.png` | Image de fond |
-| `Lastik-Regular.woff2` | Police |
-| `preview.html` | Prévisualisation |
+```
+├── banners/          # Fichiers HTML à copier
+│   ├── banner-horizontal-green.html
+│   ├── banner-horizontal-red.html
+│   ├── banner-vertical-green.html
+│   └── banner-vertical-red.html
+├── assets/           # Ressources (hébergées)
+│   ├── vera.webp
+│   ├── vera.svg
+│   ├── bg-vera.png
+│   └── Lastik-Regular.woff2
+└── preview.html      # Prévisualisation locale
+```
 
 ---
 

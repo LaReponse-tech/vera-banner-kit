@@ -1,5 +1,5 @@
 <!-- ╔═══════════════════════════════════════════════════════════════════════════╗
-     ║              BANNIERE VERA - VERSION HORIZONTALE (THEME VERT)             ║
+     ║                    BANNIERE VERA - VERSION HORIZONTALE                    ║
      ╠═══════════════════════════════════════════════════════════════════════════╣
      ║  Copiez ce code et collez-le dans votre page HTML.                        ║
      ║  Personnalisez les couleurs dans la section ci-dessous si besoin.         ║
@@ -8,7 +8,7 @@
 <style>
   @font-face {
     font-family: 'Lastik';
-    src: url('https://raw.githubusercontent.com/LaReponse-tech/vera-banner-kit/main/Lastik-Regular.woff2') format('woff2');
+    src: url('https://raw.githubusercontent.com/LaReponse-tech/vera-banner-kit/main/assets/Lastik-Regular.woff2') format('woff2');
     font-weight: 400;
     font-style: normal;
     font-display: swap;
@@ -16,25 +16,23 @@
 
   .vera-banner-horizontal {
     /* ═══════════════════════════════════════════════════════════
-       COULEURS - THEME VERT (beige/nature)
+       COULEURS PERSONNALISABLES
        ═══════════════════════════════════════════════════════════ */
-    --vera-bg-outer: #f1e8de;
-    --vera-bg: #fdf7f0;
-    --vera-text: #837768;
-    --vera-accent: #332d27;
-    --vera-highlight-bg: #d6f3b8;
+    --vera-bg: #f7f7f7;
+    --vera-text: #1e1e1e;
+    --vera-accent: #ce2e0a;
+    --vera-highlight-bg: rgba(234, 104, 75, 0.18);
     --vera-btn-bg: #171415;
     --vera-btn-text: #ffffff;
-    --vera-btn-arrow: #ffffff;
+    --vera-btn-arrow: #ce2e0a;
     --vera-btn-border: #2b2d43;
     --vera-btn-outer: #f4f6f8;
-    --vera-bg-image: url('https://raw.githubusercontent.com/LaReponse-tech/vera-banner-kit/main/bg-vera.png');
+    --vera-bg-image: url('https://raw.githubusercontent.com/LaReponse-tech/vera-banner-kit/main/assets/bg-vera.png');
     /* ═══════════════════════════════════════════════════════════ */
 
     box-sizing: border-box;
     font-family: 'Lastik', Georgia, 'Times New Roman', serif;
     background: var(--vera-bg);
-    border: 3px solid var(--vera-bg-outer);
     border-radius: 16px;
     padding: 48px;
     display: flex;
@@ -105,6 +103,7 @@
 
   .vera-banner-horizontal .vera-logo .vera-wordmark {
     height: 18px;
+    filter: brightness(0.3);  /* Assombrit le logo pour le thème rouge */
   }
 
   .vera-banner-horizontal .vera-btn {
@@ -169,8 +168,8 @@
     Interrogez <span class="vera-highlight">+500 sources fiables</span>,
     posez votre question à
     <span class="vera-logo">
-      <img class="vera-avatar" src="https://raw.githubusercontent.com/LaReponse-tech/vera-banner-kit/main/vera.webp" alt="">
-      <img class="vera-wordmark" src="https://raw.githubusercontent.com/LaReponse-tech/vera-banner-kit/main/vera.svg" alt="vera">
+      <img class="vera-avatar" src="https://raw.githubusercontent.com/LaReponse-tech/vera-banner-kit/main/assets/vera.webp" alt="">
+      <img class="vera-wordmark" src="https://raw.githubusercontent.com/LaReponse-tech/vera-banner-kit/main/assets/vera.svg" alt="vera">
     </span>
   </p>
 
