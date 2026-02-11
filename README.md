@@ -8,6 +8,10 @@ Intégrez facilement une bannière Vera sur votre site pour permettre à vos vis
 
 ![Thème rouge (exemple)](./assets/preview-red-horizontal.png)
 
+| | |
+|:---:|:---:|
+| ![Vert vertical](./assets/preview-green-vertical.png) | ![Rouge vertical](./assets/preview-red-vertical.png) |
+
 ---
 
 ## Thèmes disponibles
