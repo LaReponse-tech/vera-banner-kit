@@ -2,6 +2,8 @@
 
 Intégrez facilement une bannière Vera sur votre site pour permettre à vos visiteurs d'interroger **+500 sources fiables**.
 
+![Aperçu bannière Vera](./assets/preview.png)
+
 ---
 
 ## Thèmes disponibles
