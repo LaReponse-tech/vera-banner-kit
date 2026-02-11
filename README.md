@@ -6,17 +6,17 @@ Intégrez facilement une bannière Vera sur votre site pour permettre à vos vis
 
 ## Choisissez votre bannière
 
-### Thème Rouge (classique)
-| Format | Fichier |
-|--------|---------|
-| Horizontale | [`banner-horizontal-red.html`](./banner-horizontal-red.html) |
-| Verticale | [`banner-vertical-red.html`](./banner-vertical-red.html) |
-
-### Thème Vert (nature)
+### Thème Vert (classique)
 | Format | Fichier |
 |--------|---------|
 | Horizontale | [`banner-horizontal-green.html`](./banner-horizontal-green.html) |
 | Verticale | [`banner-vertical-green.html`](./banner-vertical-green.html) |
+
+### Thème Rouge (exemple)
+| Format | Fichier |
+|--------|---------|
+| Horizontale | [`banner-horizontal-red.html`](./banner-horizontal-red.html) |
+| Verticale | [`banner-vertical-red.html`](./banner-vertical-red.html) |
 
 ---
 
@@ -34,21 +34,21 @@ Intégrez facilement une bannière Vera sur votre site pour permettre à vos vis
 
 Les couleurs sont modifiables via les variables CSS en haut de chaque fichier :
 
-### Thème Rouge
-```css
---vera-bg: #f7f7f7;                         /* Fond gris clair */
---vera-text: #1e1e1e;                       /* Texte noir */
---vera-accent: #ce2e0a;                     /* Accent orange/rouge */
---vera-highlight-bg: rgba(234,104,75,0.18); /* Surlignage orange */
-```
-
-### Thème Vert
+### Thème Vert (classique)
 ```css
 --vera-bg: #fdf7f0;        /* Fond beige chaud */
 --vera-bg-outer: #f1e8de;  /* Bordure extérieure */
 --vera-text: #837768;      /* Texte taupe */
 --vera-accent: #332d27;    /* Accent brun */
 --vera-highlight-bg: #d6f3b8; /* Surlignage vert */
+```
+
+### Thème Rouge (exemple)
+```css
+--vera-bg: #f7f7f7;                         /* Fond gris clair */
+--vera-text: #1e1e1e;                       /* Texte noir */
+--vera-accent: #ce2e0a;                     /* Accent orange/rouge */
+--vera-highlight-bg: rgba(234,104,75,0.18); /* Surlignage orange */
 ```
 
 ---
