@@ -2,18 +2,33 @@
 
 Intégrez facilement une bannière Vera sur votre site pour permettre à vos visiteurs d'interroger **+500 sources fiables**.
 
-![Aperçu bannière Vera](./assets/preview.png)
+---
+
+## Thème Vert (classique)
+
+**Horizontal** · [Code](./banners/banner-horizontal-green.html)
+
+![Horizontal vert](./assets/preview-green-horizontal.png)
+
+**Vertical** · [Code](./banners/banner-vertical-green.html)
+
+![Vertical vert](./assets/preview-green-vertical.png)
 
 ---
 
-## Thèmes disponibles
+## Thème Rouge
 
-| Thème | Fichiers |
-|-------|----------|
-| **Vert** (classique) | [Horizontal](./banners/banner-horizontal-green.html) · [Vertical](./banners/banner-vertical-green.html) |
-| **Rouge** (exemple) | [Horizontal](./banners/banner-horizontal-red.html) · [Vertical](./banners/banner-vertical-red.html) |
+**Horizontal** · [Code](./banners/banner-horizontal-red.html)
 
-> Ouvrez [`preview.html`](./preview.html) dans votre navigateur pour prévisualiser toutes les bannières.
+![Horizontal rouge](./assets/preview-red-horizontal.png)
+
+**Vertical** · [Code](./banners/banner-vertical-red.html)
+
+![Vertical rouge](./assets/preview-red-vertical.png)
+
+---
+
+> Ouvrez [`preview.html`](./preview.html) localement pour tester toutes les bannières.
 
 ---
 
