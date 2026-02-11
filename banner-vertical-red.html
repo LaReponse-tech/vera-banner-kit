@@ -84,10 +84,23 @@
   }
 
   .vera-banner-vertical .vera-logo {
-    display: inline-block;
+    display: inline-flex;
+    align-items: center;
     vertical-align: middle;
-    height: 24px;
+    gap: 4px;
     margin-left: 4px;
+  }
+
+  .vera-banner-vertical .vera-logo .vera-avatar {
+    width: 28px;
+    height: 28px;
+    border-radius: 8px;
+    border: 1px solid rgba(131, 119, 104, 0.31);
+    transform: rotate(3deg);
+  }
+
+  .vera-banner-vertical .vera-logo .vera-wordmark {
+    height: 18px;
     filter: brightness(0.3);  /* Assombrit le logo pour le thème rouge */
   }
 
@@ -134,9 +147,12 @@
 <div class="vera-banner-vertical">
   <p class="vera-text">
     Interrogez<br>
-    <span class="vera-highlight">+500 sources fiables,</span><br>
+    <span class="vera-highlight">+500 sources fiables</span>,<br>
     posez votre question à
-    <img class="vera-logo" src="https://raw.githubusercontent.com/LaReponse-tech/vera-banner-kit/main/vera.svg" alt="vera">
+    <span class="vera-logo">
+      <img class="vera-avatar" src="https://raw.githubusercontent.com/LaReponse-tech/vera-banner-kit/main/vera.webp" alt="">
+      <img class="vera-wordmark" src="https://raw.githubusercontent.com/LaReponse-tech/vera-banner-kit/main/vera.svg" alt="vera">
+    </span>
   </p>
 
   <a href="https://widget.askvera.org" target="_blank" rel="noopener" class="vera-btn">

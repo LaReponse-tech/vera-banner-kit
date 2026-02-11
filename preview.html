@@ -1,0 +1,507 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Vera Banner Kit - Preview</title>
+  <style>
+    * { box-sizing: border-box; }
+    body {
+      font-family: system-ui, sans-serif;
+      background: #e5e5e5;
+      padding: 40px;
+      margin: 0;
+    }
+    h1 { text-align: center; color: #333; }
+    h2 { color: #666; margin-top: 60px; }
+    .preview-section { max-width: 1200px; margin: 0 auto; }
+    .banner-container { margin: 20px 0; }
+
+    @font-face {
+      font-family: 'Lastik';
+      src: url('./Lastik-Regular.woff2') format('woff2');
+      font-weight: 400;
+      font-style: normal;
+      font-display: swap;
+    }
+  </style>
+</head>
+<body>
+  <div class="preview-section">
+    <h1>Vera Banner Kit - Preview</h1>
+
+    <!-- ═══════════════════════════════════════════════════════════════════ -->
+    <h2>Horizontale - Vert (classique)</h2>
+    <!-- ═══════════════════════════════════════════════════════════════════ -->
+    <style>
+      .vera-banner-h-green {
+        --vera-bg-outer: #f1e8de;
+        --vera-bg: #fdf7f0;
+        --vera-text: #837768;
+        --vera-accent: #332d27;
+        --vera-highlight-bg: #d6f3b8;
+        --vera-btn-bg: #171415;
+        --vera-btn-text: #ffffff;
+        --vera-btn-arrow: #ffffff;
+        --vera-btn-border: #2b2d43;
+        --vera-btn-outer: #f4f6f8;
+        font-family: 'Lastik', Georgia, serif;
+        background: var(--vera-bg);
+        border: 3px solid var(--vera-bg-outer);
+        border-radius: 16px;
+        padding: 48px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 24px;
+        width: 100%;
+        max-width: 1200px;
+        min-height: 140px;
+        position: relative;
+        overflow: hidden;
+      }
+      .vera-banner-h-green * { box-sizing: border-box; margin: 0; padding: 0; }
+      .vera-banner-h-green::after {
+        content: '';
+        position: absolute;
+        right: 100px;
+        top: 50%;
+        transform: translateY(-50%);
+        width: 400px;
+        height: 400px;
+        background-image: url('./bg-vera.png');
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
+        opacity: 0.12;
+        pointer-events: none;
+      }
+      .vera-banner-h-green .vera-text {
+        font-size: 32px;
+        line-height: 1.2;
+        letter-spacing: -0.64px;
+        color: var(--vera-text);
+        position: relative;
+        z-index: 1;
+        max-width: 500px;
+      }
+      .vera-banner-h-green .vera-highlight {
+        color: var(--vera-accent);
+        background: var(--vera-highlight-bg);
+        padding: 2px 8px;
+        border-radius: 7px;
+      }
+      .vera-banner-h-green .vera-logo {
+        display: inline-flex;
+        align-items: center;
+        vertical-align: middle;
+        gap: 4px;
+        margin-left: 4px;
+      }
+      .vera-banner-h-green .vera-logo .vera-avatar {
+        width: 28px;
+        height: 28px;
+        border-radius: 8px;
+        border: 1px solid rgba(131, 119, 104, 0.31);
+        transform: rotate(3deg);
+      }
+      .vera-banner-h-green .vera-logo .vera-wordmark {
+        height: 18px;
+      }
+      .vera-banner-h-green .vera-btn {
+        position: relative;
+        z-index: 1;
+        display: inline-flex;
+        align-items: center;
+        gap: 8px;
+        background: var(--vera-btn-bg);
+        color: var(--vera-btn-text);
+        font-family: system-ui, sans-serif;
+        font-size: 18px;
+        font-weight: 700;
+        padding: 16px 22px;
+        border-radius: 1000px;
+        text-decoration: none;
+        white-space: nowrap;
+        box-shadow: 0 4.5px 6.8px rgba(0,0,0,0.14), 0 0 0 1px var(--vera-btn-border), 0 0 0 3.4px var(--vera-btn-outer), inset 0 10px 16px -6px rgba(255,255,255,0.3);
+        text-shadow: 0 1px 4px rgba(0,0,0,0.4);
+        transition: transform 0.15s ease;
+      }
+      .vera-banner-h-green .vera-btn:hover { transform: translateY(-2px); }
+      .vera-banner-h-green .vera-btn svg { width: 24px; height: 24px; stroke: var(--vera-btn-arrow); }
+    </style>
+    <div class="banner-container">
+      <div class="vera-banner-h-green">
+        <p class="vera-text">
+          Interrogez <span class="vera-highlight">+500 sources fiables</span>,
+          posez votre question à
+          <span class="vera-logo">
+            <img class="vera-avatar" src="./vera.webp" alt="">
+            <img class="vera-wordmark" src="./vera.svg" alt="vera">
+          </span>
+        </p>
+        <a href="#" class="vera-btn">
+          Demander à Vera
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2.5">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 19.5l15-15m0 0H8.25m11.25 0v11.25"/>
+          </svg>
+        </a>
+      </div>
+    </div>
+
+    <!-- ═══════════════════════════════════════════════════════════════════ -->
+    <h2>Horizontale - Rouge (exemple)</h2>
+    <!-- ═══════════════════════════════════════════════════════════════════ -->
+    <style>
+      .vera-banner-h-red {
+        --vera-bg: #f7f7f7;
+        --vera-text: #1e1e1e;
+        --vera-accent: #ce2e0a;
+        --vera-highlight-bg: rgba(234, 104, 75, 0.18);
+        --vera-btn-bg: #171415;
+        --vera-btn-text: #ffffff;
+        --vera-btn-arrow: #ce2e0a;
+        --vera-btn-border: #2b2d43;
+        --vera-btn-outer: #f4f6f8;
+        font-family: 'Lastik', Georgia, serif;
+        background: var(--vera-bg);
+        border-radius: 16px;
+        padding: 48px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 24px;
+        width: 100%;
+        max-width: 1200px;
+        min-height: 140px;
+        position: relative;
+        overflow: hidden;
+      }
+      .vera-banner-h-red * { box-sizing: border-box; margin: 0; padding: 0; }
+      .vera-banner-h-red::after {
+        content: '';
+        position: absolute;
+        right: 100px;
+        top: 50%;
+        transform: translateY(-50%);
+        width: 400px;
+        height: 400px;
+        background-image: url('./bg-vera.png');
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
+        opacity: 0.12;
+        pointer-events: none;
+      }
+      .vera-banner-h-red .vera-text {
+        font-size: 32px;
+        line-height: 1.2;
+        letter-spacing: -0.64px;
+        color: var(--vera-text);
+        position: relative;
+        z-index: 1;
+        max-width: 500px;
+      }
+      .vera-banner-h-red .vera-highlight {
+        color: var(--vera-accent);
+        background: var(--vera-highlight-bg);
+        padding: 2px 8px;
+        border-radius: 7px;
+      }
+      .vera-banner-h-red .vera-logo {
+        display: inline-flex;
+        align-items: center;
+        vertical-align: middle;
+        gap: 4px;
+        margin-left: 4px;
+      }
+      .vera-banner-h-red .vera-logo .vera-avatar {
+        width: 28px;
+        height: 28px;
+        border-radius: 8px;
+        border: 1px solid rgba(131, 119, 104, 0.31);
+        transform: rotate(3deg);
+      }
+      .vera-banner-h-red .vera-logo .vera-wordmark {
+        height: 18px;
+        filter: brightness(0.3);
+      }
+      .vera-banner-h-red .vera-btn {
+        position: relative;
+        z-index: 1;
+        display: inline-flex;
+        align-items: center;
+        gap: 8px;
+        background: var(--vera-btn-bg);
+        color: var(--vera-btn-text);
+        font-family: system-ui, sans-serif;
+        font-size: 18px;
+        font-weight: 700;
+        padding: 16px 22px;
+        border-radius: 1000px;
+        text-decoration: none;
+        white-space: nowrap;
+        box-shadow: 0 4.5px 6.8px rgba(0,0,0,0.14), 0 0 0 1px var(--vera-btn-border), 0 0 0 3.4px var(--vera-btn-outer), inset 0 10px 16px -6px rgba(255,255,255,0.3);
+        text-shadow: 0 1px 4px rgba(0,0,0,0.4);
+        transition: transform 0.15s ease;
+      }
+      .vera-banner-h-red .vera-btn:hover { transform: translateY(-2px); }
+      .vera-banner-h-red .vera-btn svg { width: 24px; height: 24px; stroke: var(--vera-btn-arrow); }
+    </style>
+    <div class="banner-container">
+      <div class="vera-banner-h-red">
+        <p class="vera-text">
+          Interrogez <span class="vera-highlight">+500 sources fiables</span>,
+          posez votre question à
+          <span class="vera-logo">
+            <img class="vera-avatar" src="./vera.webp" alt="">
+            <img class="vera-wordmark" src="./vera.svg" alt="vera">
+          </span>
+        </p>
+        <a href="#" class="vera-btn">
+          Demander à Vera
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2.5">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 19.5l15-15m0 0H8.25m11.25 0v11.25"/>
+          </svg>
+        </a>
+      </div>
+    </div>
+
+    <!-- ═══════════════════════════════════════════════════════════════════ -->
+    <h2>Verticale - Vert (classique)</h2>
+    <!-- ═══════════════════════════════════════════════════════════════════ -->
+    <style>
+      .vera-banner-v-green {
+        --vera-bg-outer: #f1e8de;
+        --vera-bg: #fdf7f0;
+        --vera-text: #837768;
+        --vera-accent: #332d27;
+        --vera-highlight-bg: #d6f3b8;
+        --vera-btn-bg: #171415;
+        --vera-btn-text: #ffffff;
+        --vera-btn-arrow: #ffffff;
+        --vera-btn-border: #2b2d43;
+        --vera-btn-outer: #f4f6f8;
+        font-family: 'Lastik', Georgia, serif;
+        background: var(--vera-bg);
+        border: 3px solid var(--vera-bg-outer);
+        border-radius: 16px;
+        padding: 32px;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 24px;
+        max-width: 400px;
+        width: 100%;
+        position: relative;
+        overflow: hidden;
+      }
+      .vera-banner-v-green * { box-sizing: border-box; margin: 0; padding: 0; }
+      .vera-banner-v-green::after {
+        content: '';
+        position: absolute;
+        right: -50px;
+        bottom: -100px;
+        width: 300px;
+        height: 400px;
+        background-image: url('./bg-vera.png');
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
+        opacity: 0.12;
+        pointer-events: none;
+      }
+      .vera-banner-v-green .vera-text {
+        font-size: 28px;
+        line-height: 1.25;
+        letter-spacing: -0.5px;
+        color: var(--vera-text);
+        position: relative;
+        z-index: 1;
+      }
+      .vera-banner-v-green .vera-highlight {
+        color: var(--vera-accent);
+        background: var(--vera-highlight-bg);
+        padding: 2px 6px;
+        border-radius: 6px;
+        display: inline;
+      }
+      .vera-banner-v-green .vera-logo {
+        display: inline-flex;
+        align-items: center;
+        vertical-align: middle;
+        gap: 4px;
+        margin-left: 4px;
+      }
+      .vera-banner-v-green .vera-logo .vera-avatar {
+        width: 28px;
+        height: 28px;
+        border-radius: 8px;
+        border: 1px solid rgba(131, 119, 104, 0.31);
+        transform: rotate(3deg);
+      }
+      .vera-banner-v-green .vera-logo .vera-wordmark {
+        height: 18px;
+      }
+      .vera-banner-v-green .vera-btn {
+        position: relative;
+        z-index: 1;
+        display: inline-flex;
+        align-items: center;
+        gap: 8px;
+        background: var(--vera-btn-bg);
+        color: var(--vera-btn-text);
+        font-family: system-ui, sans-serif;
+        font-size: 18px;
+        font-weight: 700;
+        padding: 16px 24px;
+        border-radius: 100px;
+        text-decoration: none;
+        white-space: nowrap;
+        box-shadow: 0 4px 6px rgba(0,0,0,0.14), 0 0 0 1px var(--vera-btn-border), 0 0 0 3px var(--vera-btn-outer), inset 0 10px 16px -6px rgba(255,255,255,0.3);
+        text-shadow: 0 1px 4px rgba(0,0,0,0.4);
+        transition: transform 0.15s ease;
+      }
+      .vera-banner-v-green .vera-btn:hover { transform: translateY(-2px); }
+      .vera-banner-v-green .vera-btn svg { width: 20px; height: 20px; stroke: var(--vera-btn-arrow); }
+    </style>
+    <div class="banner-container">
+      <div class="vera-banner-v-green">
+        <p class="vera-text">
+          Interrogez<br>
+          <span class="vera-highlight">+500 sources fiables</span>,<br>
+          posez votre question à
+          <span class="vera-logo">
+            <img class="vera-avatar" src="./vera.webp" alt="">
+            <img class="vera-wordmark" src="./vera.svg" alt="vera">
+          </span>
+        </p>
+        <a href="#" class="vera-btn">
+          Demander à Vera
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2.5">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 19.5l15-15m0 0H8.25m11.25 0v11.25"/>
+          </svg>
+        </a>
+      </div>
+    </div>
+
+    <!-- ═══════════════════════════════════════════════════════════════════ -->
+    <h2>Verticale - Rouge (exemple)</h2>
+    <!-- ═══════════════════════════════════════════════════════════════════ -->
+    <style>
+      .vera-banner-v-red {
+        --vera-bg: #f7f7f7;
+        --vera-text: #1e1e1e;
+        --vera-accent: #ce2e0a;
+        --vera-highlight-bg: rgba(234, 104, 75, 0.18);
+        --vera-btn-bg: #171415;
+        --vera-btn-text: #ffffff;
+        --vera-btn-arrow: #ce2e0a;
+        --vera-btn-border: #2b2d43;
+        --vera-btn-outer: #f4f6f8;
+        font-family: 'Lastik', Georgia, serif;
+        background: var(--vera-bg);
+        border-radius: 16px;
+        padding: 32px;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 24px;
+        max-width: 400px;
+        width: 100%;
+        position: relative;
+        overflow: hidden;
+      }
+      .vera-banner-v-red * { box-sizing: border-box; margin: 0; padding: 0; }
+      .vera-banner-v-red::after {
+        content: '';
+        position: absolute;
+        right: -50px;
+        bottom: -100px;
+        width: 300px;
+        height: 400px;
+        background-image: url('./bg-vera.png');
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
+        opacity: 0.12;
+        pointer-events: none;
+      }
+      .vera-banner-v-red .vera-text {
+        font-size: 28px;
+        line-height: 1.25;
+        letter-spacing: -0.5px;
+        color: var(--vera-text);
+        position: relative;
+        z-index: 1;
+      }
+      .vera-banner-v-red .vera-highlight {
+        color: var(--vera-accent);
+        background: var(--vera-highlight-bg);
+        padding: 2px 6px;
+        border-radius: 6px;
+        display: inline;
+      }
+      .vera-banner-v-red .vera-logo {
+        display: inline-flex;
+        align-items: center;
+        vertical-align: middle;
+        gap: 4px;
+        margin-left: 4px;
+      }
+      .vera-banner-v-red .vera-logo .vera-avatar {
+        width: 28px;
+        height: 28px;
+        border-radius: 8px;
+        border: 1px solid rgba(131, 119, 104, 0.31);
+        transform: rotate(3deg);
+      }
+      .vera-banner-v-red .vera-logo .vera-wordmark {
+        height: 18px;
+        filter: brightness(0.3);
+      }
+      .vera-banner-v-red .vera-btn {
+        position: relative;
+        z-index: 1;
+        display: inline-flex;
+        align-items: center;
+        gap: 8px;
+        background: var(--vera-btn-bg);
+        color: var(--vera-btn-text);
+        font-family: system-ui, sans-serif;
+        font-size: 18px;
+        font-weight: 700;
+        padding: 16px 24px;
+        border-radius: 100px;
+        text-decoration: none;
+        white-space: nowrap;
+        box-shadow: 0 4px 6px rgba(0,0,0,0.14), 0 0 0 1px var(--vera-btn-border), 0 0 0 3px var(--vera-btn-outer), inset 0 10px 16px -6px rgba(255,255,255,0.3);
+        text-shadow: 0 1px 4px rgba(0,0,0,0.4);
+        transition: transform 0.15s ease;
+      }
+      .vera-banner-v-red .vera-btn:hover { transform: translateY(-2px); }
+      .vera-banner-v-red .vera-btn svg { width: 20px; height: 20px; stroke: var(--vera-btn-arrow); }
+    </style>
+    <div class="banner-container">
+      <div class="vera-banner-v-red">
+        <p class="vera-text">
+          Interrogez<br>
+          <span class="vera-highlight">+500 sources fiables</span>,<br>
+          posez votre question à
+          <span class="vera-logo">
+            <img class="vera-avatar" src="./vera.webp" alt="">
+            <img class="vera-wordmark" src="./vera.svg" alt="vera">
+          </span>
+        </p>
+        <a href="#" class="vera-btn">
+          Demander à Vera
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2.5">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 19.5l15-15m0 0H8.25m11.25 0v11.25"/>
+          </svg>
+        </a>
+      </div>
+    </div>
+
+  </div>
+</body>
+</html>
