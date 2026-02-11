@@ -2,22 +2,29 @@
 
 Intégrez facilement une bannière Vera sur votre site pour permettre à vos visiteurs d'interroger **+500 sources fiables**.
 
-![Bannière horizontale](https://raw.githubusercontent.com/LaReponse-tech/vera-banner-kit/main/preview-horizontal.png)
+---
+
+## Choisissez votre bannière
+
+### Thème Rouge (classique)
+| Format | Fichier |
+|--------|---------|
+| Horizontale | [`banner-horizontal-red.html`](./banner-horizontal-red.html) |
+| Verticale | [`banner-vertical-red.html`](./banner-vertical-red.html) |
+
+### Thème Vert (nature)
+| Format | Fichier |
+|--------|---------|
+| Horizontale | [`banner-horizontal-green.html`](./banner-horizontal-green.html) |
+| Verticale | [`banner-vertical-green.html`](./banner-vertical-green.html) |
 
 ---
 
 ## Installation rapide
 
-### 1. Copiez le code
-
-Choisissez votre format et copiez le code HTML correspondant :
-
-- **[Bannière horizontale](./banner-horizontal.html)** — idéale pour les headers ou sections larges
-- **[Bannière verticale](./banner-vertical.html)** — idéale pour les sidebars
-
-### 2. Collez dans votre page
-
-Insérez le code à l'endroit souhaité dans votre HTML. C'est tout !
+1. **Choisissez** le thème et le format qui vous convient
+2. **Copiez** le contenu du fichier HTML
+3. **Collez** dans votre page. C'est tout !
 
 > Les assets (images, police) sont hébergés sur ce repo et prêts à l'emploi.
 
@@ -25,14 +32,23 @@ Insérez le code à l'endroit souhaité dans votre HTML. C'est tout !
 
 ## Personnalisation des couleurs
 
-Les couleurs sont facilement modifiables via les variables CSS en haut du fichier :
+Les couleurs sont modifiables via les variables CSS en haut de chaque fichier :
 
+### Thème Rouge
 ```css
---vera-bg: #f7f7f7;           /* Fond de la bannière */
---vera-text: #1e1e1e;         /* Texte principal */
---vera-accent: #ce2e0a;       /* Texte accentué (orange) */
---vera-btn-bg: #171415;       /* Fond du bouton */
---vera-btn-text: #ffffff;     /* Texte du bouton */
+--vera-bg: #f7f7f7;                         /* Fond gris clair */
+--vera-text: #1e1e1e;                       /* Texte noir */
+--vera-accent: #ce2e0a;                     /* Accent orange/rouge */
+--vera-highlight-bg: rgba(234,104,75,0.18); /* Surlignage orange */
+```
+
+### Thème Vert
+```css
+--vera-bg: #fdf7f0;        /* Fond beige chaud */
+--vera-bg-outer: #f1e8de;  /* Bordure extérieure */
+--vera-text: #837768;      /* Texte taupe */
+--vera-accent: #332d27;    /* Accent brun */
+--vera-highlight-bg: #d6f3b8; /* Surlignage vert */
 ```
 
 ---
@@ -41,8 +57,10 @@ Les couleurs sont facilement modifiables via les variables CSS en haut du fichie
 
 | Fichier | Description |
 |---------|-------------|
-| `banner-horizontal.html` | Code de la bannière horizontale |
-| `banner-vertical.html` | Code de la bannière verticale |
+| `banner-horizontal-red.html` | Bannière horizontale, thème rouge |
+| `banner-horizontal-green.html` | Bannière horizontale, thème vert |
+| `banner-vertical-red.html` | Bannière verticale, thème rouge |
+| `banner-vertical-green.html` | Bannière verticale, thème vert |
 | `vera.webp` | Avatar Vera |
 | `bg-vera.png` | Image de fond (statue) |
 | `Lastik-Regular.woff2` | Police personnalisée |
@@ -51,15 +69,13 @@ Les couleurs sont facilement modifiables via les variables CSS en haut du fichie
 
 ## Hébergement des assets
 
-Les assets sont hébergés sur ce repo GitHub. Les URLs sont déjà configurées dans les fichiers HTML :
+Les assets sont hébergés sur ce repo GitHub. Les URLs sont déjà configurées :
 
 ```
 https://raw.githubusercontent.com/LaReponse-tech/vera-banner-kit/main/vera.webp
 https://raw.githubusercontent.com/LaReponse-tech/vera-banner-kit/main/bg-vera.png
 https://raw.githubusercontent.com/LaReponse-tech/vera-banner-kit/main/Lastik-Regular.woff2
 ```
-
-> **Hébergement local (optionnel)** : Si vous préférez héberger les assets vous-même, téléchargez les fichiers et remplacez les URLs dans le code.
 
 ---
 
