@@ -25,7 +25,8 @@ Intégrez facilement une bannière Vera sur votre site pour permettre à vos vis
 
 1. **Choisissez** le thème et le format
 2. **Copiez** le contenu du fichier HTML
-3. **Collez** dans votre page
+3. **Remplacez** `VOTRE_LIEN_PARTENAIRE` par l'URL de votre widget Vera
+4. **Collez** dans votre page
 
 > Les assets sont hébergés sur ce repo — rien à télécharger.
 
